@@ -56,7 +56,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby-version: ['2.7'] # 2.7のみで実行
+        ruby-version: ['2.6.6'] # 2.7のみで実行
 
     steps:
     - uses: actions/checkout@v2
