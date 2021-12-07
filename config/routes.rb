@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  root to: "todos#index"
-  resources :todos
+  get 'top' => "home#top"
 end
